@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.2.1.slim.js"></script>
+    <script src="js/proper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/manualjs.js"></script>
+    <link rel="stylesheet" a href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <div class="register">
+        <form method="POST" id="register" action="">
+           <br> 
+            <label>First Name :</label><br>
+            <input type="text" name="fname" id="fname"
+            placeholder="Enter your first name"><br>
+            <label>Last Name :</label><br>
+            <input type="text" name="lname" id="lname"
+            placeholder="Enter your last name"><br>
+            <label>Mobile Number :</label><br>
+            <select id="ph">
+            <option>+91</option>
+            <option>+1</option></select>
+            <input type="text" name="phno" id="phno"
+            placeholder="Enter your Mobile Number"><br>
+            <label>Email :</label><br>
+            <input type="email" name="email" id="email"
+            placeholder="Enter your Mail Id"><br>
+            <label>Password :</label><br>
+            <input type="password" name="pass" id="pass"
+            placeholder="Enter your Password"><br>
+            <label>Re-enter Password :</label><br>
+            <input type="password" name="pass" id="rpass"
+            placeholder="Confirm your Password"><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label> <br><br>
+            
+            <input type="submit" value="Submit" id="sub">
+
+
+        </form>
+    </div>
+
+</body>
+</html>
